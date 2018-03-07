@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+body {
+background: #3498db;
+height:100%;
+width:auto;
+
+}
+h1{
+font-family: 'PT Serif', serif;
+font-size:2.5em;
+/*text-align:center;*/
+color:#fff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+
+}
+.quote{
+color:#ffffff;
+text-align:center;
+vertical-align:middle;
+}
+
+#quoteblock{
+font-family: 'PT Serif', serif;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+font-size:2em;
+}
+
+#author{
+font-family: 'PT Serif', serif;
+text-align:center;
+color:#fff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+}
+
+.quoteBox {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin-left: auto; margin-right: auto;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.calendar {
+  margin-left: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar h1 {
+  margin-bottom: 0px;
+}
+
+iframe {
+  margin-bottom: 40px;
+}

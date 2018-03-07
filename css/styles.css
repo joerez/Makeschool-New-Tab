@@ -136,11 +136,19 @@ iframe {
 }
 
 .btn:hover {
-  background: rgba(0,0,0,.3);
+  /*background: rgba(0,0,0,.3);*/
   color: white;
   box-shadow: 0 3px 12px 0 rgba(0,0,0,0.3);
 }
 
 .slogan {
   cursor: pointer;
+}
+
+.logo {
+  transition: transform 2s;
+}
+
+.logo:hover {
+  transform: scale(1.4) rotate(0deg) translate3d(0px,60px,0)  rotateY(360deg);
 }

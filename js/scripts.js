@@ -18,3 +18,13 @@ $('.slogan').hover(
        function(){ $(this).addClass('woah pulse infinite') },
        function(){ $(this).removeClass('woah pulse infinite') }
 )
+
+$('.btn').hover(
+       function(){ $(this).addClass('woah blazingStar') },
+       function(){ $(this).removeClass('woah blazingStar') }
+)
+
+$('.quoteBox').hover(
+       function(){ $(this).addClass('woah pulse') },
+       function(){ $(this).removeClass('woah pulse') }
+)

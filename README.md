@@ -1,5 +1,6 @@
 # Makeschool-New-Tab
 A chrome extension that gives extra productivity to makeschool students and staff.
+Download: https://chrome.google.com/webstore/detail/makeschool-dashboard/canfancchgegidjmiagefehimmmchjgi
 
 ## Features
  - Product College Calander: View class times!

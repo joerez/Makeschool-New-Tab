@@ -3,8 +3,21 @@ body {
 background: #3498db;
 height:100%;
 width:auto;
-
 }
+
+.nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav a {
+  color: white;
+  margin-right: 30px;
+}
+
+
 h1{
 font-family: 'PT Serif', serif;
 font-size:2.5em;
@@ -59,4 +72,43 @@ text-shadow:2px 2px 3px rgba(150,150,150,0.75);
 
 iframe {
   margin-bottom: 40px;
+}
+
+.googler {
+  background-color: #fff;
+  height: 44px;
+  width: 200px;
+  vertical-align: top;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms;
+  font-size: 120%;
+  text-align: center;
+  }
+
+.googler:hover {
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.3);
+}
+
+.googler::placeholder {
+  font-size: 120%;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }

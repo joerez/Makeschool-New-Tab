@@ -8,3 +8,13 @@ var author = $("#author");// id of author
 author.text(the_quote.contents.quotes[0].author);
 });
 });
+
+
+$('.slogan').on("mouseDown", function() {
+  $('.slogan').addClass('woah pulse infinite');
+})
+
+$('.slogan').hover(
+       function(){ $(this).addClass('woah pulse infinite') },
+       function(){ $(this).removeClass('woah pulse infinite') }
+)

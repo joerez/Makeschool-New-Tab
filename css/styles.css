@@ -17,6 +17,13 @@ width:auto;
   margin-right: 30px;
 }
 
+a {
+  transition: transform 200ms;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
 
 h1{
 font-family: 'PT Serif', serif;
@@ -82,13 +89,17 @@ iframe {
   border: none;
   border-radius: 2px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-  transition: box-shadow 200ms;
+  transition: box-shadow 200ms, transform 200ms;
   font-size: 120%;
   text-align: center;
   }
 
 .googler:hover {
   box-shadow: 0 10px 40px 0 rgba(0,0,0,0.3);
+  transform: scale(1.5);
+}
+
+.googler:active {
 }
 
 .googler::placeholder {
@@ -111,4 +122,25 @@ iframe {
   color: white;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.btn {
+  padding: 5px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 4px;
+  transition: box-shadow 200ms, background 200ms, color 200ms, transform 200ms;
+  color: white;
+}
+
+.btn:hover {
+  background: rgba(0,0,0,.3);
+  color: white;
+  box-shadow: 0 3px 12px 0 rgba(0,0,0,0.3);
+}
+
+.slogan {
+  cursor: pointer;
 }
